@@ -28,7 +28,7 @@
   width: 98%;
   padding-right: 2%;
   position: absolute;
-  top: 320px;
+  top: 345px;
   display: flex;
   flex-wrap: wrap;
   justify-content: end;
@@ -43,5 +43,13 @@
   }
   .containerHeader__title--job {
     font-size: 18px;
+  }
+}
+/*  Small devices (tablets, less than 881px)  */
+@media (max-width: 880px) {
+  .containerHeader__containerBtn {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
   }
 }/*# sourceMappingURL=header.css.map */

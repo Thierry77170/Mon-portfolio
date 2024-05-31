@@ -9,8 +9,31 @@
 
 .containerHome {
   margin-top: 70px;
-  padding: 40px 40px;
-  border: solid 2px black;
+  padding: 40px;
+  border-radius: 15px;
   width: auto;
-  height: 550px;
+  height: 578.8px;
+  background-color: #5b6e5b;
+  box-shadow: inset 0px 0px 20px rgb(49, 48, 48);
+  color: #FFFFFF;
+}
+
+/******* Media queries **********/
+/*  Small devices (tablets, less than 511px)  */
+@media (max-width: 510px) {
+  .containerHome__text {
+    font-size: 16px;
+  }
+}
+/*  Small devices (tablets, less than 729px)  */
+@media (max-width: 728px) {
+  .containerHome {
+    height: auto;
+  }
+}
+/*  Small devices (phones, less than 346px)  */
+@media (max-width: 345px) {
+  h2 {
+    font-size: 25px;
+  }
 }/*# sourceMappingURL=home.css.map */

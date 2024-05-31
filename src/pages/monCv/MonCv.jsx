@@ -1,7 +1,7 @@
 // Style
-import './mesRealisations.css'
+import './monCv.css'
 
-function MesRealisations() {
+function MonCv() {
     return (
         <main>
             <section>
@@ -11,4 +11,4 @@ function MesRealisations() {
     );
 }
 
-export default MesRealisations;
+export default MonCv;

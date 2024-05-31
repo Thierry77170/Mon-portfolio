@@ -37,12 +37,17 @@ function Header() {
                         <Button title="Accueil" />
                     </NavLink>
                 )}
-                <NavLink to="mesRealisations">
-                    <Button title="Mes réalisations" />
-                </NavLink>
-                
+                {currentPath !== '/mesRealisations'  && (
+                    <NavLink to="/mesRealisations">
+                        <Button title="Mes réalisations" />
+                    </NavLink>
+                )}
                 <Button title="Mes compétences" />
-                <Button title="Mon C.V." />
+               {currentPath !== '/cv'  && (
+                    <NavLink to="/cv">
+                        <Button title="Mon C.V." />
+                    </NavLink>
+                )}  
                 <Button title="Me contacter" />
             </nav>        
         </header> 

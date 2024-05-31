@@ -6,6 +6,7 @@ import { RouterProvider } from 'react-router-dom'
 import Root from './rooting/Root.jsx'
 import Home  from './pages/home/Home.jsx'
 import MesRealisations  from './pages/mesRealisations/MesRealisations.jsx'
+import MonCv  from './pages/monCv/MonCv.jsx'
 
 // Variable
 const router = createBrowserRouter([
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: '/mesRealisations',
         element: <MesRealisations />
+      },
+      {
+        path: '/cv',
+        element: <MonCv />
       },
     ]
   }

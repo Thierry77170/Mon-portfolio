@@ -1,0 +1,18 @@
+footer {
+  margin-top: 70px;
+}
+
+.containerFooter {
+  width: auto;
+  height: 150px;
+  padding: 40px;
+  color: #FFFFFF;
+  border-radius: 15px;
+  background-color: rgb(30, 8, 90);
+  box-shadow: inset 0px 0px 20px #000000;
+}
+
+.iconGitHub {
+  color: #FFFFFF;
+  margin-left: 8px;
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,21 @@
+// Variables
+@import '../../style/variables/variables';
+
+footer {
+    margin-top: 70px;
+}
+
+.containerFooter {
+    width: auto;
+    height: 150px;
+    padding: 40px;
+    color: $colorFontSizeButton;
+    border-radius: 15px;
+    background-color: $bgColorFooter;
+    box-shadow: inset 0px 0px 20px $boxShadowfooter;
+}
+
+.iconGitHub {
+    color: $colorFontSizeButton;
+    margin-left: 8px;
+}

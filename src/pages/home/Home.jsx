@@ -5,7 +5,6 @@ import { useState, useEffect } from 'react';
 import './home.css'
 
 function Home() {
-
     const [visibleClass, setVisibleClass] = useState('fade');
     useEffect(() => {
         setVisibleClass('fade visible');
@@ -16,16 +15,16 @@ function Home() {
             <section>
                 <article className={`containerHome ${visibleClass}`}>
                     <div className='containertHome__containerTitle'>
-                        <h2 id='presentation'>À propos de moi</h2>
+                        <h2>À propos de moi</h2>
                     </div>  
-                    <p className='containertHome__text'>
+                    <p className='containerHome__text'>
                         Je suis Thierry DE SOUSA,<br/>
                         développeur web Front-End passionné et engagé.<br/>
                         Après avoir exploré différents horizons professionnels,<br/>
                         j'ai décidé de me reconvertir dans le développement web, <br/>
                         un domaine qui m'anime depuis longtemps.
                     </p>
-                    <p className='containertHome__text'>
+                    <p className='containerHome__text'>
                         Diplômé d'Openclassrooms en tant que "Développeur intégrateur web",<br/>
                         diplôme de niveau 5 au RNCP (Bac+2),<br/>
                         j'ai acquis une solide base de compétences techniques en HTML,<br/>
@@ -37,7 +36,7 @@ function Home() {
                         qui font de moi un véritable atout<br/>
                         pour toute entreprise en quête d'innovation et de qualité.
                     </p>
-                    <p className='containertHome__text'>
+                    <p className='containerHome__text'>
                         Je suis impatient de mettre mes compétences<br/>
                         et ma passion au service de projets stimulants<br/> 
                         et de continuer à apprendre<br/>
