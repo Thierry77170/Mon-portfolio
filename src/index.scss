@@ -1,0 +1,17 @@
+// Variables 
+@import './style/variables/variables';
+
+body {
+    max-width: 1440px;
+    margin: 0px;
+    padding: 6px 6px;
+    margin: auto;
+}
+
+h2 {
+    font-family: $font-museoModerno;
+    margin: 0px;
+}
+p {
+    font-family: $font-roboto;
+}

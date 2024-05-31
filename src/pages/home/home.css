@@ -1,0 +1,16 @@
+.fade {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.containerHome {
+  margin-top: 70px;
+  padding: 40px 40px;
+  border: solid 2px black;
+  width: auto;
+  height: 550px;
+}/*# sourceMappingURL=home.css.map */

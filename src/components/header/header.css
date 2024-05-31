@@ -1,0 +1,47 @@
+.containerHeader {
+  position: relative;
+  border-radius: 15px;
+  height: 400px;
+}
+.containerHeader__img {
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+}
+.containerHeader__title {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #378712;
+  padding: 40px 0px 0px 40px;
+  margin: 0px;
+}
+.containerHeader__title--job {
+  font-family: "MuseoModerno", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+}
+.containerHeader__containerBtn {
+  width: 98%;
+  padding-right: 2%;
+  position: absolute;
+  top: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 15px;
+}
+
+/******* Media queries **********/
+/*  Small devices (phones, less than 411px)  */
+@media (max-width: 410px) {
+  .containerHeader__title {
+    font-size: 30px;
+  }
+  .containerHeader__title--job {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=header.css.map */

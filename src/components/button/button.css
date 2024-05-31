@@ -1,0 +1,47 @@
+.fade {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.btn {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 100px;
+  background-color: #646060;
+  padding: 0.8em 2.3em;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.2s;
+  position: relative;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/******* Media queries **********/
+/*  Small devices (tablets, less than 631px)  */
+@media (max-width: 630px) {
+  .btn {
+    font-size: 12px;
+  }
+}
+/******* Media queries **********/
+/*  Small devices (phones, less than 456px)  */
+@media (max-width: 455px) {
+  .btn {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=button.css.map */
