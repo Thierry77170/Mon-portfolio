@@ -12,7 +12,7 @@ footer {
     color: $colorFontSizeButton;
     border-radius: 15px;
     background-color: $bgColorFooter;
-    box-shadow: inset 0px 0px 20px $boxShadowfooter;
+    box-shadow: inset 0px 0px 20px $boxShadowfooter, 0px 0px 20px $boxShadowfooter;
 }
 
 .iconGitHub {

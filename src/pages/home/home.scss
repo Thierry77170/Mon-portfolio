@@ -16,16 +16,27 @@
     width: auto;
     height: 578.8px;
     background-color: $bgColorMain;
-    box-shadow: inset 0px 0px 20px $boxShadowMain;
+    box-shadow: inset 0px 0px 20px $boxShadowMain, 0px 0px 20px $boxShadowfooter;
     color: $colorFontSizeButton;
+    display: flex;
+    justify-content: space-between;
+    &__titleText {
+        width: 50%;
+    }
+    &__socials {
+        width: 100%;
+    }
+    
 }
 
 /******* Media queries **********/
 /*  Small devices (tablets, less than 511px)  */
 @media (max-width: 510px) {
     .containerHome {
-        &__text {
-            font-size: 16px;
+        &__titleText {
+            &--text {
+                font-size: 16px;
+            }  
         }
     }
 }

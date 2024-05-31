@@ -10,7 +10,11 @@ function Footer() {
         <footer>
             <div className="containerFooter">
                 <p>Développé avec JavaScript/React et hébergé sur 
-                    <a href="https://github.com/Thierry77170?tab=repositories" target="_blank">
+                    <a href="https://github.com/Thierry77170?tab=repositories" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        aria-label="Lien vers mon Github"
+                        >
                         <FontAwesomeIcon icon={faGithub} className='iconGitHub' />
                     </a>
                 </p> 

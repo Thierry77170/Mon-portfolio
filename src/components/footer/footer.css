@@ -9,7 +9,7 @@ footer {
   color: #FFFFFF;
   border-radius: 15px;
   background-color: rgb(30, 8, 90);
-  box-shadow: inset 0px 0px 20px #000000;
+  box-shadow: inset 0px 0px 20px #252531, 0px 0px 20px #252531;
 }
 
 .iconGitHub {
