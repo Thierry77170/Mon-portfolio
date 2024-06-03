@@ -2,7 +2,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 // Style
 import './socials.css'
@@ -19,10 +19,14 @@ function Socials() {
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="Lien vers mon Github"
-                >
+            >
                 <div className="box box1">
-                    <span className="icon">
-                        <FontAwesomeIcon icon={faGithub} size="2x" />
+                    <span className="ContainerIcon">
+                        <FontAwesomeIcon 
+                            icon={faGithub} 
+                            size="2x" 
+                            className='containerIcon__icon' 
+                        />
                     </span>
                 </div>
             </a>
@@ -33,19 +37,25 @@ function Socials() {
                 aria-label="Lien vers mon Linkedin"
                 >
                 <div className="box box2">
-                    <span className="icon">
-                        <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                    <span className="ContainerIcon">
+                        <FontAwesomeIcon 
+                            icon={faLinkedin} 
+                            size="2x"
+                            className='containerIcon__icon' 
+                        />
                     </span>
                 </div>
             </a>
         
-            <a href="https://discord.gg/thierry_08445" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                aria-label="Lien vers mon Discord"
-                >
+            <a href="#">
                 <div className="box box3">
-                <FontAwesomeIcon icon={faDiscord} size="2x" />
+                    <span className="ContainerIcon">
+                        <FontAwesomeIcon 
+                            icon={faEnvelope}
+                            size="2x"
+                            className='containerIcon__icon'  
+                        />
+                    </span>
                 </div>
             </a>
             <div className="box box4"></div>

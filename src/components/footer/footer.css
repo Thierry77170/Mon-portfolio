@@ -8,8 +8,8 @@ footer {
   padding: 40px;
   color: #FFFFFF;
   border-radius: 15px;
-  background-color: rgb(30, 8, 90);
-  box-shadow: inset 0px 0px 20px #252531, 0px 0px 20px #252531;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  box-shadow: inset 0px 0px 20px #55557a, 0px 0px 20px #55557a;
 }
 
 .iconGitHub {

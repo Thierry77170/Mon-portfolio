@@ -45,8 +45,8 @@ function Home() {
                             et à grandir dans ce domaine en constante évolution.
                         </p>
                     </div>
-                    <div className='containertHome__socials'>
-                        <Socials />
+                    <div className='containerHome__socials'>
+                        <Socials className="containertHome__socials--anime" />
                     </div>
                 </article>
                 

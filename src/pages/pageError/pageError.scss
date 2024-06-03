@@ -1,4 +1,4 @@
-// Variable
+// Variables
 @import '../../style/variables/variables';
 
 .fade {
@@ -9,28 +9,23 @@
     opacity: 1;
 }
 
-.containerCv {
+.containerPageError {
+    font-family: $font-roboto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-top: 70px;
     padding: 40px;
     border-radius: 15px;
     width: auto;
-    height: auto;
+    height: 658px;
     background-color: $bgColorMain;
     box-shadow: inset 0px 0px 20px $boxShadowMain, 0px 0px 20px $boxShadowfooter;
-    &__img {
-        border-radius: 15px;
-        max-width: 100%;
-        width: auto;
-        height: auto;
+    &__title {
+        font-size: 288px;
     }
-}
-
-/******* Media queries **********/
-/*  Small devices (tablets, less than 511px)  */
-@media (max-width: 510px) {
-    .containerCv {
-      padding: 16px;
+    &__text {
+        font-size: 36px;
     }
 }

@@ -1,0 +1,29 @@
+.fade {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.containerPageError {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  padding: 40px;
+  border-radius: 15px;
+  width: auto;
+  height: 658px;
+  background-color: #e8e8e8;
+  box-shadow: inset 0px 0px 20px rgb(193, 192, 212), 0px 0px 20px #55557a;
+}
+.containerPageError__title {
+  font-size: 288px;
+}
+.containerPageError__text {
+  font-size: 36px;
+}/*# sourceMappingURL=pageError.css.map */
