@@ -1,0 +1,20 @@
+// Variable
+@import '../../style/variables/variables';
+
+.fade {
+    opacity: 0;
+    transition: opacity 1s;
+}
+.visible {
+    opacity: 1;
+}
+
+.containerMesRealisations {
+    margin-top: 70px;
+    padding: 40px;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    background-color: $bgColorMain;
+    box-shadow: inset 0px 0px 20px $boxShadowMain, 0px 0px 20px $boxShadowfooter;
+}

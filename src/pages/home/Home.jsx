@@ -48,8 +48,7 @@ function Home() {
                     <div className='containerHome__socials'>
                         <Socials className="containertHome__socials--anime" />
                     </div>
-                </article>
-                
+                </article>           
             </section>
         </main>
     );

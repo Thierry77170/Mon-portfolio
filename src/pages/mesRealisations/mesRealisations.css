@@ -1,1 +1,18 @@
-/*# sourceMappingURL=mesRealisations.css.map */
+.fade {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.containerMesRealisations {
+  margin-top: 70px;
+  padding: 40px;
+  border-radius: 15px;
+  width: auto;
+  height: auto;
+  background-color: #e8e8e8;
+  box-shadow: inset 0px 0px 20px rgb(193, 192, 212), 0px 0px 20px #55557a;
+}/*# sourceMappingURL=mesRealisations.css.map */

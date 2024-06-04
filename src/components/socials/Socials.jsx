@@ -2,7 +2,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 
 // Style
 import './socials.css'
@@ -35,7 +35,7 @@ function Socials() {
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="Lien vers mon Linkedin"
-                >
+            >
                 <div className="box box2">
                     <span className="ContainerIcon">
                         <FontAwesomeIcon 
@@ -47,11 +47,15 @@ function Socials() {
                 </div>
             </a>
         
-            <a href="#">
+            <a href="https://discord.gg/g4EetmgVUk"
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="Lien vers mon Discord"
+            >
                 <div className="box box3">
                     <span className="ContainerIcon">
                         <FontAwesomeIcon 
-                            icon={faEnvelope}
+                            icon={faDiscord}
                             size="2x"
                             className='containerIcon__icon'  
                         />
