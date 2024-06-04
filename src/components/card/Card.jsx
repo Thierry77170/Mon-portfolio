@@ -1,3 +1,7 @@
+// FontAwesome
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+
 // Style
 import './card.css'
 
@@ -9,6 +13,17 @@ function Card(props) {
                 <img src={props.src} alt={props.alt} className='containerCard__work--img' />
             </div>
             <div className="containerCard__title"> 
+                <a href={props.href} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    aria-label="Lien vers mon Github"
+                    className='containerCard__title--lien'
+                >
+                    <FontAwesomeIcon 
+                            icon={faGithub} 
+                            size="2x" 
+                        />
+                </a>
                 <h2>{props.title}</h2> 
             </div>
             <div className="containerCard__texte">
