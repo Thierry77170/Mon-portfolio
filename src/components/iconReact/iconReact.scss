@@ -1,0 +1,13 @@
+// Variable
+@import '../../style/variables/variables';
+
+.containerStyle {
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+    background-color: $bgColorIcon;
+    width: 40px;
+    height: 40px;
+    fill: $colorFontSizeButton;
+    padding: 10px;
+   
+}
+    

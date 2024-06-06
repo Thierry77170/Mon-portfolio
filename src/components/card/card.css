@@ -1,66 +1,32 @@
-.containerCard {
-  border-top: solid 2px #FFFFFF;
-  border-bottom: solid 2px #FFFFFF;
-  border-radius: 10px;
-  width: calc(30% - 20px);
+.work {
+  border-radius: 12px 12px 12px 12px;
+  width: 100%;
   height: auto;
+  background-color: #FFFFFF;
 }
-.containerCard__work {
-  width: 100%;
-  height: 80%;
+.work__containerImg {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
 }
-.containerCard__work--img {
-  border-radius: 9px 9px 0px 0px;
+.work__containerImg--img {
   width: 100%;
-  height: 100%;
-  max-height: 450px;
+  max-width: 600px;
+  height: 600px;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgb(193, 192, 212);
 }
-.containerCard__title {
+.work__containerLienTitle {
   display: flex;
-  flex-direction: row;
-  gap: 10px;
-  padding-top: 5px;
+  gap: 2%;
+  margin: 20px;
 }
-
-.containerCard__text {
-  display: flex;
-  gap: 0.5em;
-  transition: 0.2s ease-in-out;
+.work__containerIconText {
+  margin: 0px;
+  padding: 0px 20px 20px 20px;
 }
-
-.likes {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 2.5em;
-  height: 1.4em;
-  border-radius: 4px;
-  margin-top: -0.5em;
-  opacity: 0;
-  background-color: #444857;
-  transition: 0.2s ease-in-out;
-}
-
-.likes:hover {
-  background-color: #5A5F73;
-  cursor: pointer;
-}
-
-.containerCard:hover .likes {
-  margin-top: 0.5em;
-  opacity: 1;
-}
-
-@keyframes AnimationName {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+.work__containerIconText--text {
+  margin-bottom: 0px;
 }/*# sourceMappingURL=card.css.map */
