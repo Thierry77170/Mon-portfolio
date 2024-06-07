@@ -60,7 +60,7 @@ function MesRealisations() {
                     title={works[currentTitleIndex]["title"]}
                     text={works[currentTextIndex]["text"]}
                     icon1={works[currentIcon1Index]["icon1"]}
-                    icon2={works[currentIcon1Index]["icon2"]}
+                    icon2={works[currentIcon2Index]["icon2"]}
                  /> 
                  <div className='containerMesRealisations__containerArrow'>
                     <img 
