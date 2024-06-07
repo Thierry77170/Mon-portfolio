@@ -10,13 +10,75 @@
 }
 
 .containerMesRealisations {
+    position: relative;
     margin-top: 70px;
-    padding: 40px;
+    padding: 40px 0px;
     border-radius: 15px;
     width: auto;
     height: auto;
     background-color: $bgColorMain;
     box-shadow: inset 0px 0px 20px $boxShadowMain, 0px 0px 20px $boxShadowfooter;
+    &__iconTech {
+        display: flex;
+        gap: 2%;
+        width: 94%;
+        margin: auto;
+    }
+    &__containerArrow {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 300px;
+        opacity: 0;
+        transition: opacity 0.5s;
+        &--arrowLeft {
+            padding-left: 15%;
+            cursor: pointer;
+        }
+        &--arrowRight {
+            padding-right: 15%;
+            cursor: pointer;
+        }
+    }
 }
 
+.containerMesRealisations:hover .containerMesRealisations__containerArrow {
+    opacity: 1;
+}
 
+/******* Media queries **********/
+/*  Small devices (tablets, less than 1057px)  */
+@media (max-width: 1056px) {
+    .containerMesRealisations {
+        &__containerArrow {
+            top: 150px;
+            &--arrowLeft {
+                width: 15.8px;
+                height: 35px;
+            }
+            &--arrowRight {
+                width: 15.8px;
+                height: 35px;
+            }    
+        }
+    } 
+}
+
+/*  Small devices (tablets, less than 511px)  */
+@media (max-width: 510px) {
+    .containerMesRealisations {
+        &__containerArrow {
+            &--arrowLeft {
+                width: 12.8px;
+                height: 30px;
+                padding-left: 5%;
+            }
+            &--arrowRight {
+                width: 12.8px;
+                height: 30px;
+                padding-right: 5%;
+            }    
+        }
+    } 
+}

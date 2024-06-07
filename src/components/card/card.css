@@ -1,7 +1,8 @@
 .work {
   border-radius: 12px 12px 12px 12px;
-  width: 100%;
+  width: 94%;
   height: auto;
+  margin: auto;
   background-color: #FFFFFF;
 }
 .work__containerImg {
@@ -10,9 +11,10 @@
   justify-content: center;
 }
 .work__containerImg--img {
-  width: 100%;
+  width: 50%;
   max-width: 600px;
-  height: 600px;
+  height: auto;
+  max-height: 600px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
@@ -23,10 +25,21 @@
   gap: 2%;
   margin: 20px;
 }
-.work__containerIconText {
-  margin: 0px;
-  padding: 0px 20px 20px 20px;
+.work__text {
+  margin: 20px;
 }
-.work__containerIconText--text {
-  margin-bottom: 0px;
+.work__icon {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  margin: 0px 20px;
+  padding-bottom: 20px;
+}
+
+/******* Media queries **********/
+/*  Small devices (tablets, less than 511px)  */
+@media (max-width: 510px) {
+  .work__containerImg--img {
+    width: 80%;
+  }
 }/*# sourceMappingURL=card.css.map */

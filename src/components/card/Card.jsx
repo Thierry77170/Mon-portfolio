@@ -2,9 +2,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
-// Components
-import IconReact from '../iconReact/IconReact.jsx'
-
 // Style
 import './card.css'
 
@@ -24,15 +21,17 @@ function Card(props) {
                 >
                     <FontAwesomeIcon 
                         icon={faGithub} 
-                        size="2x" 
+                        size="3x" 
                         className='iconGitHubWork'
                     />
                 </a>
                 <h2>{props.title}</h2>
             </div>
-            <div className='work__containerIconText'>
-                <IconReact />
-                <p className='work__containerIconText--text'>{props.text}</p>
+            <p className='work__text'>{props.text}</p>
+            <div className='work__icon'>
+                {props.icon3}
+                {props.icon1}
+                {props.icon2}     
             </div>
         </div>
     );
