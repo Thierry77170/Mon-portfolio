@@ -1,0 +1,15 @@
+// Variable
+@import '../../style/variables/variables';
+
+.containerIconVSC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: $bgColorIconRedux;
+    &__icon {
+        fill: $colorFontSizeButton;  
+    }
+}

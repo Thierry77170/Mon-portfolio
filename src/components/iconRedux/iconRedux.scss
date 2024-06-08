@@ -1,0 +1,16 @@
+// Variable
+@import '../../style/variables/variables';
+
+.containerIconRedux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    background-color: $bgColorIconRedux;
+    &__icon {
+        fill: $colorFontSizeButton;  
+    }
+}
+

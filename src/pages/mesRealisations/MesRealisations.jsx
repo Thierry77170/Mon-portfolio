@@ -1,7 +1,3 @@
-// FontAwesome
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-//import { faReact } from '@fortawesome/free-brands-svg-icons';
-
 // React 
 import { useState, useEffect } from 'react';
 
@@ -25,6 +21,8 @@ function MesRealisations() {
     const [currentTextIndex, setCurrentTextIndex] = useState(0);
     const [currentIcon1Index, setCurrentIcon1Index] = useState(0);
     const [currentIcon2Index, setCurrentIcon2Index] = useState(0);
+    const [currentIcon3Index, setCurrentIcon3Index] = useState(0);
+    const [currentIcon4Index, setCurrentIcon4Index] = useState(0);
 
     const nextSlide = () => {
         setCurrentImageIndex((imageIndex) => (imageIndex + 1) % works.length);
@@ -34,6 +32,8 @@ function MesRealisations() {
         setCurrentTextIndex((textIndex) => (textIndex + 1) % works.length);
         setCurrentIcon1Index((icon1Index) => (icon1Index + 1) % works.length);
         setCurrentIcon2Index((icon2Index) => (icon2Index + 1) % works.length);
+        setCurrentIcon3Index((icon3Index) => (icon3Index + 1) % works.length);
+        setCurrentIcon4Index((icon4Index) => (icon4Index + 1) % works.length);
     }
     const prevSlide = () => {
         setCurrentImageIndex((imageIndex) => (imageIndex - 1 + works.length) % works.length);
@@ -43,6 +43,8 @@ function MesRealisations() {
         setCurrentTextIndex((textIndex) => (textIndex - 1 + works.length) % works.length);
         setCurrentIcon1Index((icon1Index) => (icon1Index - 1 + works.length) % works.length);
         setCurrentIcon2Index((icon2Index) => (icon2Index - 1 + works.length) % works.length);
+        setCurrentIcon3Index((icon3Index) => (icon3Index - 1 + works.length) % works.length);
+        setCurrentIcon4Index((icon4Index) => (icon4Index - 1 + works.length) % works.length);
     }
     
     const [visibleClass, setVisibleClass] = useState('fade');
@@ -56,11 +58,15 @@ function MesRealisations() {
                 <Card 
                     src={works[currentImageIndex]["image"]}
                     alt={works[currentAltIndex]["alt"]}
+                    numberImg={currentImageIndex + 1}
+                    ImgTotal={works.length}
                     href={works[currentHrefIndex]["lien"]}
                     title={works[currentTitleIndex]["title"]}
                     text={works[currentTextIndex]["text"]}
                     icon1={works[currentIcon1Index]["icon1"]}
                     icon2={works[currentIcon2Index]["icon2"]}
+                    icon3={works[currentIcon3Index]["icon3"]}
+                    icon4={works[currentIcon4Index]["icon4"]}
                  /> 
                  <div className='containerMesRealisations__containerArrow'>
                     <img 

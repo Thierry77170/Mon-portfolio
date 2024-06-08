@@ -37,8 +37,8 @@ function Header() {
                         <Button title="Accueil" />
                     </NavLink>
                 )}
-                {currentPath !== '/mesRealisations'  && (
-                    <NavLink to="/mesRealisations">
+                {currentPath !== '/realisations'  && (
+                    <NavLink to="/realisations">
                         <Button title="Mes réalisations" />
                     </NavLink>
                 )}

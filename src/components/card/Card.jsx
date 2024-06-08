@@ -11,6 +11,9 @@ function Card(props) {
         <div className='work'>      
             <div className='work__containerImg'>
                 <img src={props.src} alt={props.alt} className='work__containerImg--img'/>
+                <p className='work__containerImg--text'>
+                    {props.numberImg}/{props.ImgTotal}
+                </p>
             </div>   
             <div className='work__containerLienTitle'>
                 <a href={props.href} 
@@ -21,7 +24,7 @@ function Card(props) {
                 >
                     <FontAwesomeIcon 
                         icon={faGithub} 
-                        size="3x" 
+                        size="2x" 
                         className='iconGitHubWork'
                     />
                 </a>
@@ -29,9 +32,10 @@ function Card(props) {
             </div>
             <p className='work__text'>{props.text}</p>
             <div className='work__icon'>
-                {props.icon3}
                 {props.icon1}
                 {props.icon2}     
+                {props.icon3}
+                {props.icon4}
             </div>
         </div>
     );

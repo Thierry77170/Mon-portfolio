@@ -1,0 +1,12 @@
+.containerIconRedux {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  background-color: #4285F4;
+}
+.containerIconRedux__icon {
+  fill: #FFFFFF;
+}/*# sourceMappingURL=iconRedux.css.map */
