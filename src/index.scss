@@ -1,6 +1,10 @@
 // Variables 
 @import './style/variables/variables';
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     max-width: 1440px;
     margin: 0px;

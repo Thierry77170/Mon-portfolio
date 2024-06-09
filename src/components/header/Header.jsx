@@ -48,7 +48,6 @@ function Header() {
                         <Button title="Mon C.V." />
                     </NavLink>
                 )}  
-                <Button title="Me contacter" />
             </nav>        
         </header> 
     );
