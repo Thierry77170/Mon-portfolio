@@ -125,7 +125,7 @@ function MesRealisations() {
                             </li>
                             <li key="react-icon" className="containerCompetences__containerIcons--icon">
                                 <FontAwesomeIcon className='iconCompetence' icon={faReact} size="2x" style={{ width: '54px', height: '54px', backgroundColor: 'rgb(8, 8, 143)', borderRadius: '50%', padding: '6px'}} color="#ffffff" />
-                                <p className='textIcon'>Reacr.js</p>
+                                <p className='textIcon'>React.js</p>
                             </li>
                             <li key="redux-icon" className="containerCompetences__containerIcons--icon">
                             <IconRedux className="iconReduxCompetence" />
