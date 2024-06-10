@@ -142,7 +142,7 @@ function MesRealisations() {
                             </li>
                             <li key="chromeDevTools-icon" className="containerCompetences__containerIcons--icon">
                                 <FontAwesomeIcon icon={faChrome} size="3x" style={{ color: '#4285F4', width: '66px', height: '66px' }} />
-                                <p className='textIcon'>Chrome DevTools</p>
+                                <p className='textIcon'>DevTools</p>
                             </li>
                             <li key="git-icon" className="containerCompetences__containerIcons--icon">
                             <FontAwesomeIcon icon={faGit} size="3x" style={{ backgroundColor: '#ffffff', width: '66px', height: '66px', borderRadius: '50%', padding: '0px' }} color="#f05032" />
