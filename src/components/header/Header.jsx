@@ -42,7 +42,6 @@ function Header() {
                         <Button title="Mes réalisations" />
                     </NavLink>
                 )}
-                <Button title="Mes compétences" />
                {currentPath !== '/cv'  && (
                     <NavLink to="/cv">
                         <Button title="Mon C.V." />

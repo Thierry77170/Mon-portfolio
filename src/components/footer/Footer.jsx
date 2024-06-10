@@ -25,11 +25,11 @@ function Footer() {
                     </a>
                 </p> 
                 <div className='containerFooter__icon'>
-                    <FontAwesomeIcon icon={faHtml5} size="3x" color="#e34c26" />,
-                    <FontAwesomeIcon icon={faCss3} size="3x" color="#1572b6" />,
-                    <FontAwesomeIcon icon={faJs} size="3x" style={{ backgroundColor: '#ffffff', borderRadius: '50%', padding: '0px'}} color="#ffd60a" />,
-                    <FontAwesomeIcon icon={faReact} size="2x" style={{ backgroundColor: 'rgb(8, 8, 143)', borderRadius: '50%', padding: '6px'}} color="#ffffff" />, 
-                    <FontAwesomeIcon icon={faSass} size="3x" color="#cc6699" />
+                    <FontAwesomeIcon className='iconCompetence' icon={faHtml5} size="3x" style={{ width: '51px', height: '66px' }} color="#e34c26" />,
+                    <FontAwesomeIcon icon={faCss3} size="3x" style={{ width: '66px', height: '66px' }} color="#1572b6" />,
+                    <FontAwesomeIcon className='iconCompetence' icon={faJs} size="3x" style={{ width: '66px', height: '66px', backgroundColor: '#ffffff', borderRadius: '50%', padding: '0px'}} color="#ffd60a" />,
+                    <FontAwesomeIcon className='iconCompetence' icon={faReact} size="2x" style={{ width: '54px', height: '54px', backgroundColor: 'rgb(8, 8, 143)', borderRadius: '50%', padding: '6px'}} color="#ffffff" />, 
+                    <FontAwesomeIcon icon={faSass} size="3x" style={{ color: '#cc6699', width: '66px', height: '66px' }} /> 
                 </div>
             </div>
         </footer>
