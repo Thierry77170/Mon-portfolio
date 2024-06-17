@@ -29,7 +29,10 @@ function Header() {
             <img src={macImg} alt="bureau informatique" className='containerHeader__img' />
             <h1 className='containerHeader__title'>
                 Thierry DE SOUSA<br/> 
-                <span className='containerHeader__title--job'>Développeur web Front-End</span>
+                <span className='containerHeader__title--job'>
+                    Développeur web Front-End<br/>
+                    JavaScript/React passionné et engagé
+                </span>
             </h1>
             <nav className="containerHeader__containerBtn">
                 {currentPath !== '/' && currentPath !== '/home' && (

@@ -56,6 +56,7 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 30px;
 }
 
 .containerContact__title {
@@ -74,6 +75,7 @@ article {
   .containerHome__socials {
     width: auto;
     padding-bottom: 20px;
+    margin: 10px;
   }
 }
 /*  Small devices (tablets, less than 511px)  */

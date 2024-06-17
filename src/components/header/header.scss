@@ -18,13 +18,13 @@
         position: absolute;
         font-family: $font-roboto;
         font-weight: 400;
-        color: $colorFontSizeHeader;
+        color: #FFCC70;
         padding: 40px 0px 0px 40px;
         margin: 0px;
         &--job {
             font-family: $font-museoModerno;
             font-size: 25px;
-            font-weight: 300;
+            font-weight: 400;
         }
     }
 
@@ -46,6 +46,7 @@
     .containerHeader {
         &__title {
             font-size: 30px;
+            padding: 20px;
             &--job {
                 font-size: 18px;
             }

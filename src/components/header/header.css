@@ -16,14 +16,14 @@
   position: absolute;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color: #378712;
+  color: #FFCC70;
   padding: 40px 0px 0px 40px;
   margin: 0px;
 }
 .containerHeader__title--job {
   font-family: "MuseoModerno", sans-serif;
   font-size: 25px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .containerHeader__containerBtn {
   width: 98%;
@@ -41,6 +41,7 @@
 @media (max-width: 410px) {
   .containerHeader__title {
     font-size: 30px;
+    padding: 20px;
   }
   .containerHeader__title--job {
     font-size: 18px;

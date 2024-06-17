@@ -28,28 +28,26 @@ function Home() {
                         <div className='containertHome__titleText'>
                             <h2 className='containerHome__titleText--title'>À propos de moi</h2>
                             <p className='containerHome__titleText--text'>
-                                Je suis Thierry DE SOUSA,<br/>
-                                développeur web Front-End passionné et engagé.<br/>
-                                Après avoir exploré différents horizons professionnels,<br/>
-                                j'ai décidé de me reconvertir dans le développement web, <br/>
+                                Après avoir exploré différents horizons professionnels,
+                                j'ai décidé de me reconvertir dans le développement web,
                                 un domaine qui m'anime depuis longtemps.
                             </p>
                             <p className='containerHome__titleText--text'>
-                                Diplômé d'Openclassrooms en tant que "Développeur intégrateur web",<br/>
-                                diplôme de niveau 5 au RNCP (Bac+2),<br/>
-                                j'ai acquis une solide base de compétences techniques en HTML,<br/>
+                                Diplômé d'Openclassrooms en tant que "Développeur intégrateur web",
+                                diplôme de niveau 5 au RNCP (Bac+2),
+                                j'ai acquis une solide base de compétences techniques en HTML,
                                 CSS, JavaScript, React, Redux, Node.js et autres.<br/>
-                                Mais au-delà de mes compétences techniques, <br/>
-                                je suis convaincu que c'est ma curiosité,<br/>
-                                mon esprit d'équipe<br/> 
-                                et ma capacité à résoudre les problèmes<br/>
-                                qui font de moi un véritable atout<br/>
+                                Mais au-delà de mes compétences techniques,
+                                je suis convaincu que c'est ma curiosité,
+                                mon esprit d'équipe 
+                                et ma capacité à résoudre les problèmes
+                                qui font de moi un véritable atout
                                 pour toute entreprise en quête d'innovation et de qualité.
                             </p>
                             <p className='containerHome__titleText--text'>
-                                Je suis impatient de mettre mes compétences<br/>
-                                et ma passion au service de projets stimulants<br/> 
-                                et de continuer à apprendre<br/>
+                                Je suis impatient de mettre mes compétences
+                                et ma passion au service de projets stimulants
+                                et de continuer à apprendre
                                 et à grandir dans ce domaine en constante évolution.
                             </p>
                         </div>

@@ -57,6 +57,7 @@ article {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 30px;
     }
 }
 
@@ -77,6 +78,7 @@ article {
         &__socials {
             width: auto;
             padding-bottom: 20px;
+            margin: 10px;
         }
     }
 }
