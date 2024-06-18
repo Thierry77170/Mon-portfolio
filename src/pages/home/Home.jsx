@@ -33,7 +33,7 @@ function Home() {
                                 un domaine qui m'anime depuis longtemps.
                             </p>
                             <p className='containerHome__titleText--text'>
-                                Diplômé d'Openclassrooms en tant que "Développeur informatique" 
+                                Diplômé d'OpenClassrooms en tant que "Développeur informatique" 
                                 (intégrateur web), diplôme de niveau 5 au RNCP (Bac+2),
                                 j'ai acquis une solide base de compétences techniques en HTML,
                                 CSS, JavaScript, React, Redux, Node.js et autres.<br/>
