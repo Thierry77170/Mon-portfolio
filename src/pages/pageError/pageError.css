@@ -26,4 +26,19 @@
 }
 .containerPageError__text {
   font-size: 36px;
+  text-align: center;
+}
+
+/******* Media queries **********/
+/*  Small devices (tablets, less than 601px)  */
+@media (max-width: 600px) {
+  .containerPageError {
+    padding: 20px;
+  }
+  .containerPageError__title {
+    font-size: 100px;
+  }
+  .containerPageError__text {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=pageError.css.map */

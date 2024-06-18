@@ -20,7 +20,7 @@ function PageError() {
                     <h2 className='containerPageError__title'>404</h2>
                     <p className='containerPageError__text'>{"Oups! La page que vous demandez n'existe pas."}</p>
                     <Link to='/home' className='containerPageError__lien'>
-                        {"Retourner sur la page d'accueil"}
+                        {<p>Retourner sur la page d'accueil</p>}
                     </Link>      
                 </div>
             </section>
