@@ -31,7 +31,7 @@
     font-size: 1.3em;
     font-weight: bold;
     // On définit l'espacement entre les caractères (ou lettres) du texte
-    letter-spacing: 20px;
+    letter-spacing: 2px;
   }
 
   .containerIcon {
@@ -159,7 +159,7 @@
   }
 
   .card:hover .socialsText {
-    transform: translate(70px, -52px);
+    transform: translate(50%, -116px);
     letter-spacing: 0px;
   }
 

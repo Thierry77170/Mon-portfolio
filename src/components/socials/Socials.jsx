@@ -11,7 +11,7 @@ function Socials() {
     return (
         <div className="card">
             <div className="background"></div>
-            <div className="socialsText">Socials</div>
+            <div className="socialsText">Mes réseaux</div>
                 <a href="https://github.com/Thierry77170?tab=repositories" 
                     target="_blank" 
                     rel="noopener noreferrer"
