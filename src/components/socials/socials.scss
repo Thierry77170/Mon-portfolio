@@ -28,10 +28,13 @@
     transform: translate(50%, 50%);
     transition: all 0.6s ease-in-out;
     font-family: $font-museoModerno;
-    font-size: 1.1em;
+    font-size: 1.4em;
     font-weight: bold;
     // On définit l'espacement entre les caractères (ou lettres) du texte
     letter-spacing: 2px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
   }
 
   .containerIcon {
@@ -172,7 +175,7 @@
   }
 
   .socialsText {
-    font-size: 0.6em;
+    font-size: 0.8em;
     letter-spacing: 1px;
   }
 
