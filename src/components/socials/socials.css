@@ -1,7 +1,7 @@
 .card {
   position: relative;
-  width: 380px;
-  height: 380px;
+  width: 340px;
+  height: 340px;
   background: lightgrey;
   border-radius: 30px;
   overflow: hidden;
@@ -24,7 +24,7 @@
   transform: translate(50%, 50%);
   transition: all 0.6s ease-in-out;
   font-family: "MuseoModerno", sans-serif;
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-weight: bold;
   letter-spacing: 2px;
 }
@@ -156,8 +156,11 @@
     height: 180px;
   }
   .socialsText {
-    font-size: 0.8em;
-    letter-spacing: 3px;
+    font-size: 0.6em;
+    letter-spacing: 1px;
+  }
+  .card:hover .socialsText {
+    transform: translate(50%, -66px);
   }
   .containerIcon__icon {
     height: 22px;

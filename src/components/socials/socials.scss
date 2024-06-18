@@ -3,8 +3,8 @@
 
 .card {
     position: relative;
-    width: calc(400px - 20px);
-    height: calc(400px - 20px);
+    width: calc(360px - 20px);
+    height: calc(360px - 20px);
     background: lightgrey;
     border-radius: 30px;
     overflow: hidden;
@@ -28,7 +28,7 @@
     transform: translate(50%, 50%);
     transition: all 0.6s ease-in-out;
     font-family: $font-museoModerno;
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-weight: bold;
     // On définit l'espacement entre les caractères (ou lettres) du texte
     letter-spacing: 2px;
@@ -172,8 +172,12 @@
   }
 
   .socialsText {
-    font-size: 0.8em;
-    letter-spacing: 3px;
+    font-size: 0.6em;
+    letter-spacing: 1px;
+  }
+
+  .card:hover .socialsText {
+    transform: translate(50%, -66px);
   }
 
   .containerIcon__icon {
