@@ -20,6 +20,7 @@ import ImageKasa from '../img/kasa.webp';
 import ImageNinaCarducci from '../img/ninaCarducci.webp'; 
 import ImageOhmyfood from '../img/ohmyfood.webp'; 
 import ImageSophieBluel from '../img/sophieBluel.webp'; 
+import ImageLibrairieDeFilms from '../img/librairieDeFilms.webp'; 
 
 const works = [
     {
@@ -91,6 +92,16 @@ const works = [
         "icon2": <FontAwesomeIcon icon={faCss3} size="3x" style={{ width: '66px', height: '66px' }} color="#1572b6" />,
         "icon3": <FontAwesomeIcon className='iconCompetence' icon={faJs} size="3x" style={{ width: '66px', height: '66px', backgroundColor: '#ffffff', borderRadius: '50%', padding: '0px'}} color="#ffd60a" />,
         "icon4": <IconSwagger />
+    },
+    {
+        "image": ImageLibrairieDeFilms,
+        "alt": "image du projet 'Librairie de film'",
+        "lien": "https://github.com/Thierry77170/librairieDeFilm.git",
+        "title":  "Librairie de films",
+        "text": "J'ai listé les films dans des cartes avec : le titre en gras, la catégorie et une jauge type Youtube indiquant le ratio likes/dislikes. Les cartes sont côtes à côtes et responsive. Lorsque la fenêtre est réduite, les cartes sautent à la ligne suivante. J'ai ajouté un bouton dans les cartes permettant de supprimer celle-ci. J'ai ajouté un bouton pour basculer j'aime/je n'aime pas. J'ai ajouté un filtre par catégorie (de type multiselect) en supposant qu'on ne les connaisse pas à l'avance (il fallait donc les récupérer dynamiquement depuis les films). Quand tous les films d'une catégorie sont supprimés, celle-ci n'apparaît plus. J'ai ajouter un système de pagination avec les fonctionnalités suivantes : Boutons précédent/suivant Choix du nombre d'éléments affichés par page (4, 8 ou 12).",
+        "icon1": <FontAwesomeIcon className='iconCompetence' icon={faJs} size="3x" style={{ width: '66px', height: '66px', backgroundColor: '#ffffff', borderRadius: '50%', padding: '0px'}} color="#ffd60a" />,
+        "icon2": <FontAwesomeIcon className='iconCompetence' icon={faReact} size="2x" style={{ width: '54px', height: '54px', backgroundColor: 'rgb(8, 8, 143)', borderRadius: '50%', padding: '6px'}} color="#ffffff" />, 
+        "icon3": <IconRedux />,
     }
 ]
 
